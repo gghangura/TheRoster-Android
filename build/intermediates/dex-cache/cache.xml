@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_f794d15bf9452afde86e60d2433ba104d91eaf86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_2229b68601acd13f141fb6e0a24741dc65acbe3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_0a1e41f0e1e6efeb27913cf140910985f404b253/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_23813299aee81e71dfe7da8e57a4a63660f70547/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_a9def6832e2e0b91588b8d4b99e9121262b9d8f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_4e47e507c1215be7d027571701258e52d87930e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f2538ebdaaec89d5a9c84508dddb51416951f4f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bd109900f9498c23480066b3bdb071e8db82e7">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_aed5464c536764b1d9d02ad1f7a2b982036baac2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_6157244de4797f1edadeb6c78f4d0c9d45b471e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_54367da53173b9a5df950ed3e7f83a2c8672d9e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_1a3ca65ae612d2311fef7a134671c9c28a8a9ec7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_4827cfd8ca4ac0cdeb7ac0c1ffdafe0773be5e32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_64bf6bc34a11b137f2d6f3c7488166114c95070a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ac561e8a81fbc3efda640a6a68e6bd37bcb0fbfe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_b6245d49af64dd943fc76e2915b97be370ebbdbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_866ec7236d465a44a9fb3cf2e5cb755185d67d34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7c6c7724786d474a71bcb8f5ebe9ff67f2c31dbf">
+        <dex dex="/Users/gurjit/AndroidStudioProjects/The-Roster/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_56b4db2d5d84166ca2eb2d355edb42801ade037c/classes.dex" />
+    </item>
+
+</items>

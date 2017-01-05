@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gurjitghangura.com.the_roster.MainActivity">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/checkBox"
+        android:layout_marginTop="18dp"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginStart="150px"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70px"
+        android:layout_marginBottom="70px"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_below="@+id/editText2"
+        android:layout_marginLeft="80px"
+        android:id="@+id/radioGroup">
+        <RadioButton
+            android:text="XS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/extraSmall"
+            android:layout_toStartOf="@+id/spinner"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:text="S"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/small"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:text="M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/medium"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:text="L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/large"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:text="XL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/extraLarge"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:text="XXL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/doubleExtraLarge"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:text="Pant Size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/pantSizeLabel"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginTop="40px"
+         />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pantSizeLabel"
+        android:layout_alignStart="@+id/editText2"
+        android:id="@+id/seekBar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50px"
+        android:max="16" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seekBar"
+        android:layout_alignEnd="@+id/spinner"
+        android:id="@+id/pantSizeValue"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="Shirt Size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/shirtSizeLabel"
+        android:layout_below="@+id/pantSizeLabel"
+        android:layout_marginTop="50px"
+        />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shirtSizeLabel"
+        android:layout_alignStart="@+id/seekBar"
+        android:id="@+id/shirtSize"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50px"
+        android:max="16" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shirtSize"
+        android:layout_alignEnd="@+id/spinner"
+        android:id="@+id/shirtSizeValue"
+        android:textAlignment="center"/>
+
+
+
+    <TextView
+        android:text="Shoe Size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/shoeSizeLabel"
+        android:layout_below="@+id/shirtSizeLabel"
+        android:layout_marginTop="50px"
+        />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shoeSizeLabel"
+        android:layout_alignStart="@+id/seekBar"
+        android:id="@+id/shoeSize"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50px"
+        android:max="8" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="40px"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoeSizeLabel"
+        android:layout_alignTop="@+id/shoeSize"
+        android:layout_alignEnd="@+id/spinner"
+        android:id="@+id/shoeSizeValue" />
+
+    <CheckBox
+        android:text="We are going Steady"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_alignEnd="@+id/checkBox"
+        android:hint="Name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Eye Color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/editText2"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/spinner" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:inputType="textPersonName"
+        android:text="Date Of Birth"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignEnd="@+id/checkBox"
+        android:layout_alignStart="@+id/checkBox"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoeSize"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60px"
+        android:id="@+id/saveBtn"
+        android:layout_alignStart="@+id/shoeSize"
+        android:onClick="savedata"/>
+
+    <TextView
+        android:text="Shirt Size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:layout_marginTop="30px" />
+
+
+</RelativeLayout>
